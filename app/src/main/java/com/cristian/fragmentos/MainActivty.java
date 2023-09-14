@@ -35,4 +35,5 @@ public class MainActivty extends AppCompatActivity {
         FragmentManager manager = this.getSupportFragmentManager();
         manager.beginTransaction().replace(R.id.frameLayout, fragmento).commit();
     }
+
 }
